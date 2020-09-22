@@ -139,7 +139,7 @@ def selenium_search_in_Douban_IMDb(movie_Chinese_name, movie_English_name, year,
             print("End.......")
 
 if __name__ == '__main__':
-
+#
     csv_header = ('电影中文名称', '电影英文名称', '上映日期', '豆瓣评分', '豆瓣置顶评论')
     # 表头
     csv_writer.writerow(csv_header)
